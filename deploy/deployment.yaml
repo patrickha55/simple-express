@@ -17,6 +17,7 @@ spec:
       containers:
       - name: simple-express
         image: patrickha55/simple-express
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         livenessProbe:
